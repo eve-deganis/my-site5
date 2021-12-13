@@ -1,0 +1,136 @@
+
+.card-white-1 {
+    background-color: white;
+    padding: 40px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    margin: 20px 0px;
+    text-align: justify;
+    text-align-last: center;
+    border-radius: 1%;
+    flex-basis: 250px;
+    flex-grow: 1;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: row;
+    justify-content: space-around;
+}
+
+.card-white {
+    background-color: white;
+    padding-top: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 20px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    margin: 20px 0px;
+    text-align: justify;
+    text-align-last: center;
+    border-radius: 1%;
+    flex-basis: 250px;
+    flex-grow: 1;
+    margin: 10px;
+}
+
+#card-notre-projet {
+    margin-left: 0px;
+}
+
+#card-notre-budget {
+    margin-right: 0px;
+}
+
+
+
+.card-white-quote {
+    background-color: #D7A28C;
+    color: white;
+    font-family: 'Amatic SC', cursive;
+    font-size: 20px;
+    padding: 40px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    margin: 20px 0px;
+    text-align: justify;
+    text-align-last: center;
+    border-radius: 1%;
+    flex-basis: 250px;
+    flex-grow: 1;
+}
+
+.besoin-de-vous {
+    padding: 30px;
+    text-align: justify;
+    text-align-last: center;
+    border-radius: 1%;
+    flex-basis: 250px;
+    flex-grow: 1;
+    margin-bottom: 20px;
+    flex-basis: 250px;
+    flex-grow: 1;
+}
+
+
+#team {
+    background-image: linear-gradient(rgba(300,300,300,0.7), rgba(300,300,300,0.7)), url(../../images/team2.jpg);
+    background-size: cover;
+}
+
+#tableau {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 280px;
+}
+
+.NB {
+    font-size: 12px;
+    font-weight: 300;
+    margin-top: 30px;
+    color: rgb(120, 120, 120);
+}
+
+.help {
+    margin-bottom: 30px;
+    font-size: 23px;
+}
+
+#diapo {
+    width: 750px;
+    overflow: hidden;
+    border-radius: 1%;
+}
+
+.diapo {
+    display: flex;
+    animation-duration: 20s;
+    animation-name: mesimages;
+    animation-iteration-count: infinite;
+}
+
+
+@keyframes mesimages {
+    0% {
+        transform: translateX(0);
+    }
+    17% {
+        transform: translateX(-750px);
+    }
+    32% {
+        transform: translateX(-1500px);
+    }
+    49% {
+        transform: translateX(-2250px);
+    }
+    64% {
+        transform: translateX(-3000px);
+    }
+    81% {
+        transform: translateX(-3750px);
+    }
+    100% {
+        transform: translateX(0);
+    }
+
+}
+
+

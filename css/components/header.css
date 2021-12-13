@@ -1,0 +1,8 @@
+header {
+    z-index: 10;
+    background-color: #263B46;
+    width: 100%;
+    color: white;
+    box-shadow: 0 0px 4px rgba(0, 0, 0, 1);
+    position: fixed;
+}

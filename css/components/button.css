@@ -1,0 +1,14 @@
+#button-red {
+    background-color: #263B46;
+    color: white;
+    padding: 10px 12px;
+    border-radius: 4px;
+    transition: color 0.2s ease;
+    font-family: 'Amatic SC', cursive;
+    margin-top: 20px;
+    font-size: 25px;
+}
+
+#button-red:hover {
+    background-color: rgb(53,82,97, 0.8);
+}

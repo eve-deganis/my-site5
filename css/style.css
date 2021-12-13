@@ -1,0 +1,129 @@
+@import url("components/header.css");
+@import url("components/banner.css");
+@import url("components/content.css");
+@import url("components/button.css");
+@import url("components/contact.css");
+
+body {
+    background-color: rgb(245, 245, 245);
+    color: black;
+    font-family: 'IBM Plex Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+ 
+
+h1 {
+    margin: 0;
+    margin: 13px auto;
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 37px;
+    font-weight: 300;
+}
+
+h3 {
+    margin-top: 45px;
+    display: center;
+}
+
+
+a {
+    text-decoration: none;
+}
+
+
+p span {
+    color: #181573;
+    font-weight: bolder;
+}
+
+.container{
+    width: 750px;
+    margin: 0px auto;
+}
+
+@media (max-width: 760px) {
+    .container {
+    width: 600px;
+    }
+    #diapo {
+    width: 600px;
+    }
+    .img-diapo {
+    width: 600px;
+    }
+    #card-notre-projet {
+        margin-right: 0px;
+    }
+    h1 {
+        font-size: 30px;
+    }
+    #card-notre-budget {
+    margin-left: 0px;
+    }
+    @keyframes mesimages {
+    0% {
+        transform: translateX(0);
+    }
+    17% {
+        transform: translateX(-600px);
+    }
+    32% {
+        transform: translateX(-1200px);
+    }
+    49% {
+        transform: translateX(-1800px);
+    }
+    64% {
+        transform: translateX(-2400px);
+    }
+    81% {
+        transform: translateX(-3000px);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
+
+@media (max-width: 500px) {
+    .container {
+    width: 400px;
+    }
+    #diapo {
+    width: 400px;
+    }
+    .img-diapo {
+    width: 400px;
+    }
+    #card-notre-projet {
+    margin-right: 0px;
+    }
+    h1 {
+    font-size: 20px;
+    }
+    #card-notre-budget {
+    margin-left: 0px;
+    }
+    @keyframes mesimages {
+    0% {
+        transform: translateX(0);
+    }
+    17% {
+        transform: translateX(-400px);
+    }
+    32% {
+        transform: translateX(-800px);
+    }
+    49% {
+        transform: translateX(-1200px);
+    }
+    64% {
+        transform: translateX(-1600px);
+    }
+    81% {
+        transform: translateX(-2000px);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
